@@ -28,7 +28,6 @@ CATS = HERE / "categories.json"
 CHANNEL = "https://t.me/github_raskopki"
 CHANNEL_SLUG = "github_raskopki"
 REPO_URL = "https://github.com/nzeronfourme/github-raskopki"
-OS_VALUES = ["Win", "macOS", "Linux", "Android", "iOS", "Web", "Any"]
 
 L10N = {
     "ru": {
@@ -40,10 +39,8 @@ L10N = {
         "lead": ("Каталог программ и утилит, которые выходили в Telegram-канале "
                  "[@github_raskopki]({ch}). Разбит по категориям: название ведёт на "
                  "репозиторий, ссылка в колонке Пост - на пост в канале."),
-        "legend": ("ОС: Win, macOS, Linux, Android, iOS - сборки под платформу; "
-                   "Web - браузер или self-hosted; Any - навыки, плагины и CLI без отдельной сборки."),
         "contents": "Содержание",
-        "cols": ("Приложение", "Описание", "ОС", "Пост"),
+        "cols": ("Приложение", "Описание", "Пост"),
         "post": "пост",
         "foot": ("Каталог собирается из `data.json` скриптом `catalog.py build`; README руками не правят. "
                  "Новая запись - через `data.json` или `catalog.py add`."),
@@ -57,10 +54,8 @@ L10N = {
         "lead": ("A catalog of the apps and tools featured in the Telegram channel "
                  "[@github_raskopki]({ch}), grouped by category. The app name links to "
                  "the repository, the Post column links to the channel post."),
-        "legend": ("OS: Win, macOS, Linux, Android, iOS - platform builds; Web - browser or "
-                   "self-hosted; Any - skills, plugins and CLI tools without a platform build."),
         "contents": "Contents",
-        "cols": ("App", "Description", "OS", "Post"),
+        "cols": ("App", "Description", "Post"),
         "post": "post",
         "foot": ("Generated from `data.json` by `catalog.py build`; do not edit the READMEs by hand. "
                  "Add entries in `data.json` or with `catalog.py add`."),
@@ -126,26 +121,6 @@ def fetch_meta(repo: str) -> dict:
             "homepage": meta.get("homepage") or "", "stars": meta.get("stargazers_count")}
 
 
-OS_HINTS = [
-    ("Win", r"\bwindows?\b|\bwin(10|11)\b|\bwin32\b|\bexe\b|taskbar"),
-    ("macOS", r"\bmacos\b|\bmac os\b|\bappstore\b|\bdmg\b"),
-    ("Linux", r"\blinux\b|\bappimage\b|\bflatpak\b|\bdeb\b"),
-    ("Android", r"\bandroid\b"),
-    ("iOS", r"\bios\b|\biphone\b|\bipad\b"),
-]
-
-
-def infer_os(*texts: str) -> str:
-    blob = " ".join(t for t in texts if t).lower()
-    found = []
-    for label, pat in OS_HINTS:
-        if re.search(pat, blob) and label not in found:
-            found.append(label)
-    order = ["Win", "macOS", "Linux", "Android", "iOS"]
-    found.sort(key=order.index)
-    return " / ".join(found)
-
-
 # ---------------------------------------------------------------- generator
 
 def render(lang: str, data: list, cats: list) -> str:
@@ -154,7 +129,7 @@ def render(lang: str, data: list, cats: list) -> str:
     out = [f"# {t['title']}", ""]
     out.append(f"**[{t['self_name']}]({t['file']})** | [{t['other_name']}]({t['other']}) "
                f"· Telegram: [{CHANNEL_SLUG}]({CHANNEL})")
-    out += ["", t["lead"].format(ch=CHANNEL), "", t["legend"], "", f"## {t['contents']}", ""]
+    out += ["", t["lead"].format(ch=CHANNEL), "", f"## {t['contents']}", ""]
     for c in live:
         n = sum(1 for r in data if r["category"] == c["slug"])
         out.append(f"- [{c[lang]}](#{anchor(c[lang])}) ({n})")
@@ -166,7 +141,7 @@ def render(lang: str, data: list, cats: list) -> str:
         out.append("|" + "|".join(["---"] * len(t["cols"])) + "|")
         for r in rows:
             out.append(f"| [{esc(r['repo'].split('/')[-1])}](https://github.com/{r['repo']}) "
-                       f"| {esc(r['desc_' + lang])} | {esc(r['os'])} | [{t['post']}]({r['tg_post']}) |")
+                       f"| {esc(r['desc_' + lang])} | [{t['post']}]({r['tg_post']}) |")
         out.append("")
     out += ["---", "", t["foot"], ""]
     return "\n".join(out)
@@ -209,9 +184,6 @@ def validate(data: list, cats: list) -> list[str]:
             problems.append(f"empty description: {repo}")
         if len(r.get("desc_ru", "")) > 110 or len(r.get("desc_en", "")) > 110:
             problems.append(f"description too long: {repo}")
-        parts = [p.strip() for p in r.get("os", "").split("/") if p.strip()]
-        if not parts or any(p not in OS_VALUES for p in parts):
-            problems.append(f"bad os: {repo} -> {r.get('os')!r}")
     return problems
 
 
@@ -236,14 +208,14 @@ def upsert(repo: str, fields: dict) -> tuple[str, dict]:
     key = repo.lower()
     row = next((r for r in data if r["repo"].lower() == key), None)
     if row is None:
-        row = {"repo": repo, "category": "other", "os": "", "desc_ru": "", "desc_en": "",
+        row = {"repo": repo, "category": "other", "desc_ru": "", "desc_en": "",
                "tg_post": "", "date": ""}
         data.append(row)
         action = "added"
     else:
         action = "updated"
     for k, v in fields.items():
-        if k in ("category", "os", "desc_ru", "desc_en", "tg_post", "date") and v:
+        if k in ("category", "desc_ru", "desc_en", "tg_post", "date") and v:
             row[k] = v.strip() if isinstance(v, str) else v
     if row["category"] not in order:
         raise SystemExit(f"unknown category {row['category']!r}; allowed: {', '.join(order)}")
@@ -281,8 +253,6 @@ def cmd_add(args) -> int:
     fields = {"tg_post": tg_url(args.tg) if args.tg else "", "date": today}
     if args.category:
         fields["category"] = args.category
-    if args.os:
-        fields["os"] = args.os
     if args.desc_ru:
         fields["desc_ru"] = args.desc_ru
     if args.desc_en:
@@ -292,10 +262,8 @@ def cmd_add(args) -> int:
         meta = fetch_meta(repo)
         if meta.get("desc_en") and not fields.get("desc_en"):
             fields["desc_en"] = meta["desc_en"]
-        if not fields.get("os"):
-            fields["os"] = infer_os(meta.get("desc_en", ""), " ".join(meta.get("topics") or []))
     action, row = upsert(repo, fields)
-    print(f"{action}: {row['repo']} [{row['category']}] os={row['os'] or '?'} {row['tg_post']}")
+    print(f"{action}: {row['repo']} [{row['category']}] {row['tg_post']}")
     if args.build:
         for p in build():
             print("written", p.name)
@@ -370,7 +338,6 @@ def cmd_from_channel(args) -> int:
         desc_ru = first if len(first) <= 95 else first[:95].rsplit(" ", 1)[0] + "."
         meta = fetch_meta(repo) if not args.no_fetch else {}
         row = {"repo": repo, "category": args.category or "other",
-               "os": infer_os(body, meta.get("desc_en", ""), " ".join(meta.get("topics") or [])),
                "desc_ru": desc_ru, "desc_en": meta.get("desc_en", ""),
                "tg_post": tg_url(str(mid)), "date": post["date"]}
         data.append(row)
@@ -401,7 +368,6 @@ def main() -> int:
     a.add_argument("repo")
     a.add_argument("--tg", help="channel post id or full link")
     a.add_argument("--category")
-    a.add_argument("--os")
     a.add_argument("--desc-ru")
     a.add_argument("--desc-en")
     a.add_argument("--date")

@@ -2,7 +2,6 @@
  {
   "repo": "Arman715/pulse-pc",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Программа для Windows: после игровой сессии объясняет, что ограничивало FPS и откуда рывки.",
   "desc_en": "Tune and monitor your gaming PC on Windows: what limits FPS and how to fix it.",
   "tg_post": "https://t.me/github_raskopki/110",
@@ -11,7 +10,6 @@
  {
   "repo": "Atlas-OS/Atlas",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Модификация Windows, которая вырезает телеметрию и урезает сбор данных через групповые политики.",
   "desc_en": "An open and lightweight modification to Windows, designed to optimise performance, privacy and usability.",
   "tg_post": "https://t.me/github_raskopki/70",
@@ -20,7 +18,6 @@
  {
   "repo": "BillyNabil/nabyscape",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Панель для музыки, фокуса и заметок на Windows с ИИ-собеседником Naby.",
   "desc_en": "A customizable Windows desktop island for music, focus, live lyrics and your own AI companion.",
   "tg_post": "https://t.me/github_raskopki/97",
@@ -29,7 +26,6 @@
  {
   "repo": "builtbybel/FluentCleaner",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Утилита для очистки Windows от кэша, временных файлов и логов приложений на WinUI 3.",
   "desc_en": "FluentCleaner is the transparent, community-powered CCleaner alternative for Windows.",
   "tg_post": "https://t.me/github_raskopki/107",
@@ -38,7 +34,6 @@
  {
   "repo": "CalcProgrammer1/OpenRGB",
   "category": "windows",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Управляет RGB-подсветкой компьютера из одного приложения без утилит производителей.",
   "desc_en": "Open source RGB lighting control without manufacturer software. Windows, Linux and macOS.",
   "tg_post": "https://t.me/github_raskopki/64",
@@ -47,7 +42,6 @@
  {
   "repo": "ChrisTitusTech/winutil",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Набор скриптов для Windows: установка программ, твики, исправления и обновления.",
   "desc_en": "Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates",
   "tg_post": "https://t.me/github_raskopki/60",
@@ -56,7 +50,6 @@
  {
   "repo": "eythaann/Seelen-UI",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Заменяет рабочее окружение Windows на собственное: панель задач, меню Пуск и виджеты.",
   "desc_en": "The Fully Customizable Desktop Environment for Windows 10/11.",
   "tg_post": "https://t.me/github_raskopki/58",
@@ -65,7 +58,6 @@
  {
   "repo": "Flow-Launcher/Flow.Launcher",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Быстрый поиск файлов и запуск приложений для Windows с плагинами от сообщества.",
   "desc_en": ":mag: Quick file search & app launcher for Windows with community-made plugins",
   "tg_post": "https://t.me/github_raskopki/61",
@@ -74,7 +66,6 @@
  {
   "repo": "hellzerg/optimizer",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Настраивает Windows с упором на приватность и безопасность после чистой установки.",
   "desc_en": "The finest Windows Optimizer",
   "tg_post": "https://t.me/github_raskopki/62",
@@ -83,7 +74,6 @@
  {
   "repo": "itsfatduck/optimizerDuck",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Инструмент для настройки Windows с упором на скорость, приватность и простоту.",
   "desc_en": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
   "tg_post": "https://t.me/github_raskopki/80",
@@ -92,7 +82,6 @@
  {
   "repo": "kando-menu/kando",
   "category": "windows",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Круговое меню для рабочего стола: команды и инструменты по жесту мыши.",
   "desc_en": "Pie menu for the desktop that fires commands and shortcuts with a mouse gesture.",
   "tg_post": "https://t.me/github_raskopki/59",
@@ -101,7 +90,6 @@
  {
   "repo": "krisgfx9/Wireless-Device-Battery-Monitor",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Показывает заряд беспроводной мыши, клавиатуры, гарнитуры и геймпада в трее Windows.",
   "desc_en": "Windows tray battery monitor for wireless mice, keyboards and headsets.",
   "tg_post": "https://t.me/github_raskopki/108",
@@ -110,7 +98,6 @@
  {
   "repo": "memstechtips/Winhance",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Инструмент для очистки и настройки Windows 10 и 11.",
   "desc_en": "Application designed to optimize, customize and enhance your Windows experience.",
   "tg_post": "https://t.me/github_raskopki/56",
@@ -119,7 +106,6 @@
  {
   "repo": "nzeronfourme/pcx",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Скилл для Windows 10 и 11: обследует систему в режиме чтения и применяет только выбранные правки.",
   "desc_en": "Windows 10/11 optimizer for AI coding agents: one scan, one table, only chosen fixes.",
   "tg_post": "https://t.me/github_raskopki/98",
@@ -128,7 +114,6 @@
  {
   "repo": "QL-Win/QuickLook",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Добавляет в Windows мгновенный предпросмотр файлов по пробелу, как Quick Look в macOS.",
   "desc_en": "Bring macOS “Quick Look” feature to Windows",
   "tg_post": "https://t.me/github_raskopki/87",
@@ -137,7 +122,6 @@
  {
   "repo": "ramensoftware/windhawk",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Маркетплейс модов для Windows-программ: меняют поведение и вид приложений без правки кода.",
   "desc_en": "The customization marketplace for Windows programs: https://windhawk.net/",
   "tg_post": "https://t.me/github_raskopki/31",
@@ -146,7 +130,6 @@
  {
   "repo": "RoutineMiku/apkstart",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Ставит APK в Windows двойным кликом и запускает Android-приложения как обычные программы.",
   "desc_en": "Windows runner for Android apps: double-click an APK, apps open as separate windows.",
   "tg_post": "https://t.me/github_raskopki/103",
@@ -155,7 +138,6 @@
  {
   "repo": "skretny/ResChanger",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Портативная утилита для Windows 10 и 11: переключает разрешение и частоту обновления по хоткею.",
   "desc_en": "Portable hotkey resolution switcher for Windows, made for CS2 and Deadlock players.",
   "tg_post": "https://t.me/github_raskopki/104",
@@ -164,7 +146,6 @@
  {
   "repo": "srwi/EverythingToolbar",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Встраивает поиск по файлам на движке Everything прямо в панель задач Windows.",
   "desc_en": "Everything integration for the Windows taskbar.",
   "tg_post": "https://t.me/github_raskopki/45",
@@ -173,7 +154,6 @@
  {
   "repo": "Taiizor/Sucrose",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Инструмент для живых обоев рабочего стола из гифок, видео и веб-страниц.",
   "desc_en": "Wallpaper engine with interactive wallpapers: GIF, video and web pages.",
   "tg_post": "https://t.me/github_raskopki/83",
@@ -182,7 +162,6 @@
  {
   "repo": "TranslucentTB/TranslucentTB",
   "category": "windows",
-  "os": "Win",
   "desc_ru": "Делает панель задач Windows 10 и 11 прозрачной или полупрозрачной.",
   "desc_en": "A lightweight utility that makes the Windows taskbar translucent/transparent.",
   "tg_post": "https://t.me/github_raskopki/100",
@@ -191,7 +170,6 @@
  {
   "repo": "addyosmani/agent-skills",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Набор из 25 навыков для ИИ-агентов, которые ведут разработку от постановки задачи до выпуска.",
   "desc_en": "Production-grade engineering skills for AI coding agents.",
   "tg_post": "https://t.me/github_raskopki/101",
@@ -200,7 +178,6 @@
  {
   "repo": "anomalyco/opencode",
   "category": "ai",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Открытый ИИ-агент для программирования: живёт в терминале, пишет и разбирает код.",
   "desc_en": "The open source coding agent.",
   "tg_post": "https://t.me/github_raskopki/44",
@@ -209,7 +186,6 @@
  {
   "repo": "anthropics/knowledge-work-plugins",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Набор из 11 плагинов, которые превращают Claude в специалиста под роль, команду и компанию.",
   "desc_en": "Plugins for knowledge workers to use in Claude Cowork.",
   "tg_post": "https://t.me/github_raskopki/57",
@@ -218,7 +194,6 @@
  {
   "repo": "cloudflare/security-audit-skill",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Превращает coding-агента в аудитора безопасности и ведет проверку в шесть фаз.",
   "desc_en": "Coding-agent skill for multi-phase security audits with verified findings.",
   "tg_post": "https://t.me/github_raskopki/86",
@@ -227,7 +202,6 @@
  {
   "repo": "Donchitos/Claude-Code-Game-Studios",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Превращает сеанс Claude Code в студию разработки игр с иерархией настоящей команды.",
   "desc_en": "Turns Claude Code into a game studio: 49 agents, 75 workflow skills, one coordinator.",
   "tg_post": "https://t.me/github_raskopki/65",
@@ -236,7 +210,6 @@
  {
   "repo": "elementalsouls/Claude-BugHunter",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Навыки для Claude Code: 84 навыка, 15 слэш-команд и 681 разобранный отчёт HackerOne.",
   "desc_en": "Claude Code skill bundle for bug hunting: 84 skills, 681 HackerOne reports.",
   "tg_post": "https://t.me/github_raskopki/115",
@@ -245,7 +218,6 @@
  {
   "repo": "erkamyaman/rust-anything",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Переписывает приложение на Rust по частям, сверяя каждый кусок с записью поведения оригинала.",
   "desc_en": "Rewrites an app in Rust piece by piece, checked against the original's recorded behavior.",
   "tg_post": "https://t.me/github_raskopki/112",
@@ -254,7 +226,6 @@
  {
   "repo": "google/elephant-goldfish-model",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Плагин для Claude Code и Codex, который помогает проектировать софт вместе с ИИ-агентами.",
   "desc_en": "Open-source plugin for designing and reviewing software with agents",
   "tg_post": "https://t.me/github_raskopki/88",
@@ -263,7 +234,6 @@
  {
   "repo": "K-Dense-AI/scientific-agent-skills",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Набор из 177 научных навыков для ИИ-агентов.",
   "desc_en": "177 scientific skills that turn any AI agent into an AI scientist.",
   "tg_post": "https://t.me/github_raskopki/39",
@@ -272,7 +242,6 @@
  {
   "repo": "morluto/rea",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Связка кодового агента с инструментами реверс-инжиниринга бинарников и приложений.",
   "desc_en": "Reverse engineer anything with agents, from app behavior down to native binaries.",
   "tg_post": "https://t.me/github_raskopki/33",
@@ -281,7 +250,6 @@
  {
   "repo": "mvanhorn/last30days-skill",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Навык для ИИ-агентов: ищет свежие публикации по теме в Reddit, X, YouTube и Hacker News.",
   "desc_en": "Agent skill that researches a topic across Reddit, X, YouTube, HN and the web.",
   "tg_post": "https://t.me/github_raskopki/106",
@@ -290,7 +258,6 @@
  {
   "repo": "ruvnet/ruflo",
   "category": "ai",
-  "os": "Any",
   "desc_ru": "Надстройка для Claude Code и Codex: инструменты, память, циклы и контроль для агентов.",
   "desc_en": "Agent harness for Claude Code and Codex: tools, memory, loops and control.",
   "tg_post": "https://t.me/github_raskopki/36",
@@ -299,7 +266,6 @@
  {
   "repo": "storytold/craft-anything",
   "category": "ai",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Инструмент для разбора сайтов, приложений и игр и сборки собственных версий с помощью ИИ.",
   "desc_en": "Craft Anything: understand how any software works, and craft your own.",
   "tg_post": "https://t.me/github_raskopki/73",
@@ -308,7 +274,6 @@
  {
   "repo": "calesthio/OpenMontage",
   "category": "media",
-  "os": "Any",
   "desc_ru": "Превращает ИИ-ассистента для кода в студию видеопроизводства, которой ставят задачу обычным языком.",
   "desc_en": "Agentic video production system: 12 pipelines and 100+ tools for coding agents.",
   "tg_post": "https://t.me/github_raskopki/74",
@@ -317,7 +282,6 @@
  {
   "repo": "cjpais/Handy",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Бесплатная программа переводит голос в текст полностью офлайн, без облака.",
   "desc_en": "A free, open source, and extensible speech-to-text application that works completely offline.",
   "tg_post": "https://t.me/github_raskopki/89",
@@ -326,7 +290,6 @@
  {
   "repo": "debpalash/VoiceStudio",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Локальная AI-студия озвучки, которая работает на устройстве без облака.",
   "desc_en": "Fully local ElevenLabs alternative: voice cloning, voice design, video dubbing.",
   "tg_post": "https://t.me/github_raskopki/68",
@@ -335,7 +298,6 @@
  {
   "repo": "fxsound2/fxsound-app",
   "category": "media",
-  "os": "Win",
   "desc_ru": "Улучшает звук компьютера фоновой обработкой: эквалайзер, усиление и эффекты.",
   "desc_en": "FxSound application and DSP source code",
   "tg_post": "https://t.me/github_raskopki/32",
@@ -344,7 +306,6 @@
  {
   "repo": "getopenscreen/openscreen",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Записывает окно или весь экран с микрофоном и системным звуком для демо и обучающих видео.",
   "desc_en": "Records your screen into polished demo videos, GPU-accelerated and watermark-free.",
   "tg_post": "https://t.me/github_raskopki/95",
@@ -353,7 +314,6 @@
  {
   "repo": "hacksider/Deep-Live-Cam",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Программа меняет лицо в реальном времени на видео и в прямом эфире по одному фото.",
   "desc_en": "real time face swap and one-click video deepfake with only a single image",
   "tg_post": "https://t.me/github_raskopki/91",
@@ -362,7 +322,6 @@
  {
   "repo": "kde/krita",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Программа для цифровой живописи: кисти, слои, анимация и работа с большими холстами.",
   "desc_en": "Digital painting app: brushes, layers, animation and large canvases.",
   "tg_post": "https://t.me/github_raskopki/35",
@@ -371,7 +330,6 @@
  {
   "repo": "latent-spaces/brag",
   "category": "media",
-  "os": "Any",
   "desc_ru": "Агентский скилл: превращает готовый проект в короткое видео для запуска с музыкой и текстом.",
   "desc_en": "Agent skill that turns a finished project into a short launch video in one command.",
   "tg_post": "https://t.me/github_raskopki/78",
@@ -380,7 +338,6 @@
  {
   "repo": "lemomo-ai/lemo-opuscar",
   "category": "media",
-  "os": "Any",
   "desc_ru": "Набор киношных стилей для роликов, которые собирает ии-агент по описанию.",
   "desc_en": "Toolbox of film styles for Claude Code, ready to use or extended with your own.",
   "tg_post": "https://t.me/github_raskopki/55",
@@ -389,7 +346,6 @@
  {
   "repo": "Likely7/Veyra-NRVideo",
   "category": "media",
-  "os": "Win",
   "desc_ru": "Плеер и захват для Windows 11 с апскейлингом, HDR и генерацией кадров на GPU.",
   "desc_en": "Windows video player and capture tool with upscaling, HDR and frame generation.",
   "tg_post": "https://t.me/github_raskopki/109",
@@ -398,7 +354,6 @@
  {
   "repo": "mifi/lossless-cut",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Инструмент для нарезки видео и аудио без перекодирования и потери качества.",
   "desc_en": "The swiss army knife of lossless video/audio editing",
   "tg_post": "https://t.me/github_raskopki/71",
@@ -407,7 +362,6 @@
  {
   "repo": "NickeManarin/ScreenToGif",
   "category": "media",
-  "os": "Win",
   "desc_ru": "Записывает область экрана и сохраняет в GIF или видео, с встроенным редактором кадров.",
   "desc_en": "ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video.",
   "tg_post": "https://t.me/github_raskopki/102",
@@ -416,7 +370,6 @@
  {
   "repo": "nukeop/nuclear",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Музыкальный плеер без рекламы, который ищет песни на просторах сети и собирает плейлисты.",
   "desc_en": "Streaming music player that finds free music for you",
   "tg_post": "https://t.me/github_raskopki/38",
@@ -425,7 +378,6 @@
  {
   "repo": "openfilm/openfilm",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Инструмент для создания видео кодовым агентом с ручным редактированием.",
   "desc_en": "Turns any coding agent into a video agent, with editors to change what it makes.",
   "tg_post": "https://t.me/github_raskopki/76",
@@ -434,7 +386,6 @@
  {
   "repo": "storytold/photocraft",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Редактор изображений - открытая реализация Photoshop на чистом Rust для работы офлайн.",
   "desc_en": "PhotoCraft: An open-source photo editor written from scratch in pure Rust",
   "tg_post": "https://t.me/github_raskopki/43",
@@ -443,7 +394,6 @@
  {
   "repo": "upscayl/upscayl",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Увеличивает изображения с низким разрешением нейросетью, предугадывая детали.",
   "desc_en": "Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
   "tg_post": "https://t.me/github_raskopki/63",
@@ -452,7 +402,6 @@
  {
   "repo": "vanwild11/viralcut",
   "category": "media",
-  "os": "Win / macOS",
   "desc_ru": "Нарезает длинные видео и стримы на вертикальные клипы для Shorts, Reels и TikTok.",
   "desc_en": "Cuts long videos and streams into vertical clips for Shorts, Reels and TikTok on macOS and Windows.",
   "tg_post": "https://t.me/github_raskopki/113",
@@ -461,7 +410,6 @@
  {
   "repo": "w-okada/voice-changer",
   "category": "media",
-  "os": "Win / Linux",
   "desc_ru": "Изменяет голос в реальном времени с помощью нейросетевых моделей.",
   "desc_en": "リアルタイムボイスチェンジャー Realtime Voice Changer",
   "tg_post": "https://t.me/github_raskopki/82",
@@ -470,7 +418,6 @@
  {
   "repo": "webadderallorg/recordly",
   "category": "media",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Записывает экран и собирает демо-видео во встроенном редакторе.",
   "desc_en": "Create polished demo videos without editing skills. Mac/Windows/Linux",
   "tg_post": "https://t.me/github_raskopki/54",
@@ -479,7 +426,6 @@
  {
   "repo": "beeradmoore/dlss-swapper",
   "category": "games",
-  "os": "Win",
   "desc_ru": "Инструмент для обновления версий DLSS, FSR и XeSS в играх без ожидания патча от разработчиков.",
   "desc_en": "Swaps DLSS, FSR and XeSS DLLs in games to newer versions.",
   "tg_post": "https://t.me/github_raskopki/69",
@@ -488,7 +434,6 @@
  {
   "repo": "boykopovar/AnyPS5",
   "category": "games",
-  "os": "Win / Linux",
   "desc_ru": "Переносит исполняемые файлы PS5 на Linux и Windows без эмуляции.",
   "desc_en": "Tool for automatic PS5 executables porting to Linux and Windows",
   "tg_post": "https://t.me/github_raskopki/34",
@@ -497,7 +442,6 @@
  {
   "repo": "flightlessmango/Mangohud",
   "category": "games",
-  "os": "Linux",
   "desc_ru": "Оверлей для Vulkan и OpenGL: FPS, время кадра, температура и загрузка CPU и GPU.",
   "desc_en": "A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.",
   "tg_post": "https://t.me/github_raskopki/77",
@@ -506,7 +450,6 @@
  {
   "repo": "JosefNemec/Playnite",
   "category": "games",
-  "os": "Win",
   "desc_ru": "Менеджер игр, который собирает библиотеки из разных магазинов и эмуляторов в один интерфейс.",
   "desc_en": "Game library manager that unifies stores and emulators in one interface.",
   "tg_post": "https://t.me/github_raskopki/67",
@@ -515,7 +458,6 @@
  {
   "repo": "KytyPS5/KytyPS5",
   "category": "games",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Эмулятор PlayStation 5 с открытым кодом для Windows, Linux и macOS.",
   "desc_en": "PlayStation 5 translation layer for Windows, Linux and macOS",
   "tg_post": "https://t.me/github_raskopki/8",
@@ -524,7 +466,6 @@
  {
   "repo": "LizardByte/Sunshine",
   "category": "games",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Хост для стриминга игр с домашнего ПК на клиенты Moonlight.",
   "desc_en": "Self-hosted game stream host for Moonlight.",
   "tg_post": "https://t.me/github_raskopki/75",
@@ -533,7 +474,6 @@
  {
   "repo": "pcsx2/pcsx2",
   "category": "games",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Эмулятор PlayStation 2 с открытым кодом, который повторяет работу железа консоли.",
   "desc_en": "PCSX2 - The Playstation 2 Emulator",
   "tg_post": "https://t.me/github_raskopki/53",
@@ -542,7 +482,6 @@
  {
   "repo": "RPCS3/rpcs3",
   "category": "games",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Эмулятор PlayStation 3 для запуска игр приставки на обычном домашнем компьютере.",
   "desc_en": "PlayStation 3 emulator and debugger",
   "tg_post": "https://t.me/github_raskopki/79",
@@ -551,7 +490,6 @@
  {
   "repo": "bleachbit/bleachbit",
   "category": "files",
-  "os": "Win / Linux",
   "desc_ru": "Утилита для очистки Windows и Linux от временных файлов, кэша браузеров, куки и логов.",
   "desc_en": "BleachBit system cleaner for Windows and Linux",
   "tg_post": "https://t.me/github_raskopki/96",
@@ -560,7 +498,6 @@
  {
   "repo": "Devolutions/UniGetUI",
   "category": "files",
-  "os": "Win",
   "desc_ru": "Графическая оболочка над winget, Scoop и Chocolatey в одном окне.",
   "desc_en": "The graphical interface for your Windows package managers.",
   "tg_post": "https://t.me/github_raskopki/66",
@@ -569,7 +506,6 @@
  {
   "repo": "Gathin23/cleanyourtv",
   "category": "files",
-  "os": "Android",
   "desc_ru": "Лаунчер для Android TV: убирает рекламные ряды и мусорные сервисы, меняет домашний экран.",
   "desc_en": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
   "tg_post": "https://t.me/github_raskopki/41",
@@ -578,7 +514,6 @@
  {
   "repo": "KnifeLemon/Filee",
   "category": "files",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Бесплатный конвертер файлов работает через перетаскивание.",
   "desc_en": "Offline file converter for 263 formats, drag and drop.",
   "tg_post": "https://t.me/github_raskopki/47",
@@ -587,7 +522,6 @@
  {
   "repo": "localsend/localsend",
   "category": "files",
-  "os": "Win / macOS / Linux / Android / iOS",
   "desc_ru": "Обменивается файлами и сообщениями между устройствами в локальной сети без интернета.",
   "desc_en": "An open-source cross-platform alternative to AirDrop",
   "tg_post": "https://t.me/github_raskopki/48",
@@ -596,7 +530,6 @@
  {
   "repo": "qarmin/czkawka",
   "category": "files",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Ищет дубликаты, пустые папки и похожие фото: есть интерфейс и версия для командной строки.",
   "desc_en": "Finds duplicates, empty folders and similar images, with GUI and CLI.",
   "tg_post": "https://t.me/github_raskopki/99",
@@ -605,7 +538,6 @@
  {
   "repo": "thtbee/nectarlink",
   "category": "files",
-  "os": "Win / Linux / Android",
   "desc_ru": "Связывает Android-телефон с ПК: уведомления, звонки, буфер обмена, файлы и экран телефона.",
   "desc_en": "Links your Android phone and PC: notifications, calls, clipboard, files and screen.",
   "tg_post": "https://t.me/github_raskopki/117",
@@ -614,7 +546,6 @@
  {
   "repo": "tonyantony300/dashbeam",
   "category": "files",
-  "os": "Win / macOS / Linux / Android",
   "desc_ru": "Инструмент для передачи файлов между устройствами без облака по пиринговой сети.",
   "desc_en": "Peer-to-peer file transfer between devices without a cloud.",
   "tg_post": "https://t.me/github_raskopki/40",
@@ -623,7 +554,6 @@
  {
   "repo": "yjid/kensaku",
   "category": "files",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Локальный лаунчер для поиска файлов на компьютере, висит в трее и вызывается горячей клавишей.",
   "desc_en": "Local launcher that searches inside documents, code and screenshots.",
   "tg_post": "https://t.me/github_raskopki/72",
@@ -632,7 +562,6 @@
  {
   "repo": "AyuGram/AyuGramDesktop",
   "category": "net",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Десктопный клиент Telegram с расширенной настройкой вида и режимом невидимки.",
   "desc_en": "Desktop Telegram client with good customization and Ghost mode.",
   "tg_post": "https://t.me/github_raskopki/85",
@@ -641,7 +570,6 @@
  {
   "repo": "gorhill/uBlock",
   "category": "net",
-  "os": "Web",
   "desc_ru": "Блокировщик контента для Chromium и Firefox с экономией процессора и памяти.",
   "desc_en": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
   "tg_post": "https://t.me/github_raskopki/93",
@@ -650,7 +578,6 @@
  {
   "repo": "imputnet/cobalt",
   "category": "net",
-  "os": "Web",
   "desc_ru": "Веб-сервис для скачивания видео и аудио без рекламы, трекеров и подписок.",
   "desc_en": "best way to save what you love",
   "tg_post": "https://t.me/github_raskopki/90",
@@ -659,7 +586,6 @@
  {
   "repo": "NineUPFLOW/Zephyron",
   "category": "net",
-  "os": "Win",
   "desc_ru": "Сортирует трафик Windows по сайтам и программам: напрямую, через обход блокировок или VPN.",
   "desc_en": "Traffic router for Windows: bypasses blocks for YouTube, Discord and Telegram, plus its own VPN.",
   "tg_post": "https://t.me/github_raskopki/105",
@@ -668,7 +594,6 @@
  {
   "repo": "nzeronfourme/tg-collab",
   "category": "net",
-  "os": "Any",
   "desc_ru": "Локальная программа для поиска партнёров в Telegram: подписчики, ранжирование и черновики.",
   "desc_en": "Local-first tool for finding Telegram collab partners: discovery, ranking, drafts.",
   "tg_post": "https://t.me/github_raskopki/114",
@@ -677,7 +602,6 @@
  {
   "repo": "pablostanley/yoinks",
   "category": "net",
-  "os": "Any",
   "desc_ru": "Качает видео с YouTube, X, Instagram, TikTok и ещё 1800 сайтов из терминала.",
   "desc_en": "yoink any video from your terminal. no shady ads.",
   "tg_post": "https://t.me/github_raskopki/81",
@@ -686,7 +610,6 @@
  {
   "repo": "Saffsanity/sill",
   "category": "net",
-  "os": "macOS / iOS",
   "desc_ru": "Показывает окна Mac на iPhone и iPad с управлением пальцем, клавиатурой или Apple Pencil.",
   "desc_en": "Shows any Mac window live on iPhone and iPad, with touch and keyboard control.",
   "tg_post": "https://t.me/github_raskopki/28",
@@ -695,7 +618,6 @@
  {
   "repo": "sherlock-project/sherlock",
   "category": "net",
-  "os": "Any",
   "desc_ru": "Инструмент для поиска аккаунтов по имени пользователя в 400 с лишним соцсетях.",
   "desc_en": "Hunt down social media accounts by username across social networks",
   "tg_post": "https://t.me/github_raskopki/92",
@@ -704,7 +626,6 @@
  {
   "repo": "Vendicated/Vencord",
   "category": "net",
-  "os": "Web",
   "desc_ru": "Модифицированный клиент и загрузчик модов для Discord на TypeScript.",
   "desc_en": "Discord client mod with plugins and themes.",
   "tg_post": "https://t.me/github_raskopki/84",
@@ -713,7 +634,6 @@
  {
   "repo": "zen-browser/desktop",
   "category": "net",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Браузер на Firefox с упором на приватность, спокойный дизайн и гибкую настройку.",
   "desc_en": "Welcome to a calmer internet",
   "tg_post": "https://t.me/github_raskopki/52",
@@ -722,7 +642,6 @@
  {
   "repo": "CzzzzzzJ/mdldm-maitian",
   "category": "docs",
-  "os": "Win / macOS",
   "desc_ru": "Публикует одно видео на семи площадках и собирает статистику на одном экране.",
   "desc_en": "Publishing console and analytics dashboard for seven video platforms.",
   "tg_post": "https://t.me/github_raskopki/111",
@@ -731,7 +650,6 @@
  {
   "repo": "dartdavros/MarkMello",
   "category": "docs",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Программа для просмотра и редактирования Markdown-файлов на Windows, macOS и Linux.",
   "desc_en": "Markdown viewer and editor that opens documents in a clean reading mode.",
   "tg_post": "https://t.me/github_raskopki/116",
@@ -740,7 +658,6 @@
  {
   "repo": "hugohe3/ppt-master",
   "category": "docs",
-  "os": "Any",
   "desc_ru": "Собирает редактируемый PPTX из PDF, DOCX и веб-страниц для доработки в PowerPoint.",
   "desc_en": "Turns documents and topics into native, editable PowerPoint decks.",
   "tg_post": "https://t.me/github_raskopki/46",
@@ -749,7 +666,6 @@
  {
   "repo": "pot-app/pot-desktop",
   "category": "docs",
-  "os": "Win / macOS / Linux",
   "desc_ru": "Переводит выделенный текст и распознаёт надписи на скриншотах на Windows, macOS и Linux.",
   "desc_en": "一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognition.",
   "tg_post": "https://t.me/github_raskopki/94",
