@@ -28,6 +28,7 @@ CATS = HERE / "categories.json"
 CHANNEL = "https://t.me/github_raskopki"
 CHANNEL_SLUG = "github_raskopki"
 REPO_URL = "https://github.com/nzeronfourme/github-raskopki"
+SELF_REPO = "nzeronfourme/github-raskopki"  # пост-анонс самого каталога в каталог не попадает
 
 L10N = {
     "ru": {
@@ -323,6 +324,8 @@ def cmd_from_channel(args) -> int:
         if len(post["repos"]) != 1:
             continue
         repo = post["repos"][0]
+        if repo.lower() == SELF_REPO.lower():
+            continue
         if repo.lower() in known:
             if not known[repo.lower()].get("tg_post"):
                 known[repo.lower()]["tg_post"] = tg_url(str(mid))
