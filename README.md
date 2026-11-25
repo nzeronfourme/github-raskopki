@@ -79,7 +79,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 | [photocraft](https://github.com/storytold/photocraft) | PhotoCraft: An open-source photo editor written from scratch in pure Rust | [post](https://t.me/github_raskopki/43) |
 | [upscayl](https://github.com/upscayl/upscayl) | Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows. | [post](https://t.me/github_raskopki/63) |
 | [viralcut](https://github.com/vanwild11/viralcut) | Cuts long videos and streams into vertical clips for Shorts, Reels and TikTok on macOS and Windows. | [post](https://t.me/github_raskopki/113) |
-| [voice-changer](https://github.com/w-okada/voice-changer) | リアルタイムボイスチェンジャー Realtime Voice Changer | [post](https://t.me/github_raskopki/82) |
+| [voice-changer](https://github.com/w-okada/voice-changer) | Realtime voice changer that swaps your voice with neural models. | [post](https://t.me/github_raskopki/82) |
 | [recordly](https://github.com/webadderallorg/recordly) | Create polished demo videos without editing skills. Mac/Windows/Linux | [post](https://t.me/github_raskopki/54) |
 
 ## Games & Emulators
@@ -131,8 +131,4 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 | [mdldm-maitian](https://github.com/CzzzzzzJ/mdldm-maitian) | Publishing console and analytics dashboard for seven video platforms. | [post](https://t.me/github_raskopki/111) |
 | [MarkMello](https://github.com/dartdavros/MarkMello) | Markdown viewer and editor that opens documents in a clean reading mode. | [post](https://t.me/github_raskopki/116) |
 | [ppt-master](https://github.com/hugohe3/ppt-master) | Turns documents and topics into native, editable PowerPoint decks. | [post](https://t.me/github_raskopki/46) |
-| [pot-desktop](https://github.com/pot-app/pot-desktop) | 一个跨平台的划词翻译和OCR软件 \| A cross-platform software for text translation and recognition. | [post](https://t.me/github_raskopki/94) |
-
----
-
-Generated from `data.json` by `catalog.py build`; do not edit the READMEs by hand. Add entries in `data.json` or with `catalog.py add`.
+| [pot-desktop](https://github.com/pot-app/pot-desktop) | Cross-platform text translation and OCR tool for Windows, macOS and Linux. | [post](https://t.me/github_raskopki/94) |

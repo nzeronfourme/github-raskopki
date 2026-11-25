@@ -411,7 +411,7 @@
   "repo": "w-okada/voice-changer",
   "category": "media",
   "desc_ru": "Изменяет голос в реальном времени с помощью нейросетевых моделей.",
-  "desc_en": "リアルタイムボイスチェンジャー Realtime Voice Changer",
+  "desc_en": "Realtime voice changer that swaps your voice with neural models.",
   "tg_post": "https://t.me/github_raskopki/82",
   "date": "2026-11-09"
  },
@@ -667,7 +667,7 @@
   "repo": "pot-app/pot-desktop",
   "category": "docs",
   "desc_ru": "Переводит выделенный текст и распознаёт надписи на скриншотах на Windows, macOS и Linux.",
-  "desc_en": "一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognition.",
+  "desc_en": "Cross-platform text translation and OCR tool for Windows, macOS and Linux.",
   "tg_post": "https://t.me/github_raskopki/94",
   "date": "2026-11-15"
  }

@@ -42,8 +42,6 @@ L10N = {
         "contents": "Содержание",
         "cols": ("Приложение", "Описание", "Пост"),
         "post": "пост",
-        "foot": ("Каталог собирается из `data.json` скриптом `catalog.py build`; README руками не правят. "
-                 "Новая запись - через `data.json` или `catalog.py add`."),
     },
     "en": {
         "file": "README.md",
@@ -57,8 +55,6 @@ L10N = {
         "contents": "Contents",
         "cols": ("App", "Description", "Post"),
         "post": "post",
-        "foot": ("Generated from `data.json` by `catalog.py build`; do not edit the READMEs by hand. "
-                 "Add entries in `data.json` or with `catalog.py add`."),
     },
 }
 
@@ -143,7 +139,6 @@ def render(lang: str, data: list, cats: list) -> str:
             out.append(f"| [{esc(r['repo'].split('/')[-1])}](https://github.com/{r['repo']}) "
                        f"| {esc(r['desc_' + lang])} | [{t['post']}]({r['tg_post']}) |")
         out.append("")
-    out += ["---", "", t["foot"], ""]
     return "\n".join(out)
 
 

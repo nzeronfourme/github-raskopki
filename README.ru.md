@@ -132,7 +132,3 @@
 | [MarkMello](https://github.com/dartdavros/MarkMello) | Программа для просмотра и редактирования Markdown-файлов на Windows, macOS и Linux. | [пост](https://t.me/github_raskopki/116) |
 | [ppt-master](https://github.com/hugohe3/ppt-master) | Собирает редактируемый PPTX из PDF, DOCX и веб-страниц для доработки в PowerPoint. | [пост](https://t.me/github_raskopki/46) |
 | [pot-desktop](https://github.com/pot-app/pot-desktop) | Переводит выделенный текст и распознаёт надписи на скриншотах на Windows, macOS и Linux. | [пост](https://t.me/github_raskopki/94) |
-
----
-
-Каталог собирается из `data.json` скриптом `catalog.py build`; README руками не правят. Новая запись - через `data.json` или `catalog.py add`.
