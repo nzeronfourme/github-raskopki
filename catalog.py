@@ -220,7 +220,8 @@ def upsert(repo: str, fields: dict) -> tuple[str, dict]:
 
 
 def git(*args: str) -> int:
-    return subprocess.run(["git", *args], cwd=HERE).returncode
+    env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
+    return subprocess.run(["git", *args], cwd=HERE, env=env).returncode
 
 
 def commit_and_push(message: str) -> None:
