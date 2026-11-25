@@ -33,7 +33,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 | [Winhance](https://github.com/memstechtips/Winhance) | Application designed to optimize, customize and enhance your Windows experience. | [post](https://t.me/github_raskopki/56) |
 | [pcx](https://github.com/nzeronfourme/pcx) | Windows 10/11 optimizer for AI coding agents: one scan, one table, only chosen fixes. | [post](https://t.me/github_raskopki/98) |
 | [QuickLook](https://github.com/QL-Win/QuickLook) | Bring macOS “Quick Look” feature to Windows | [post](https://t.me/github_raskopki/87) |
-| [windhawk](https://github.com/ramensoftware/windhawk) | The customization marketplace for Windows programs: https://windhawk.net/ | [post](https://t.me/github_raskopki/31) |
+| [windhawk](https://github.com/ramensoftware/windhawk) | Marketplace of mods for Windows programs: they change how apps behave and look without touching their code. | [post](https://t.me/github_raskopki/31) |
 | [apkstart](https://github.com/RoutineMiku/apkstart) | Windows runner for Android apps: double-click an APK, apps open as separate windows. | [post](https://t.me/github_raskopki/103) |
 | [ResChanger](https://github.com/skretny/ResChanger) | Portable hotkey resolution switcher for Windows, made for CS2 and Deadlock players. | [post](https://t.me/github_raskopki/104) |
 | [EverythingToolbar](https://github.com/srwi/EverythingToolbar) | Everything integration for the Windows taskbar. | [post](https://t.me/github_raskopki/45) |

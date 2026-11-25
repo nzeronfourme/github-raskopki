@@ -123,7 +123,7 @@
   "repo": "ramensoftware/windhawk",
   "category": "windows",
   "desc_ru": "Маркетплейс модов для Windows-программ: меняют поведение и вид приложений без правки кода.",
-  "desc_en": "The customization marketplace for Windows programs: https://windhawk.net/",
+  "desc_en": "Marketplace of mods for Windows programs: they change how apps behave and look without touching their code.",
   "tg_post": "https://t.me/github_raskopki/31",
   "date": "2026-10-17"
  },
