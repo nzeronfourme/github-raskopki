@@ -277,6 +277,7 @@ def commit_and_push(message: str) -> None:
 def cmd_add(args) -> int:
     repo = args.repo.strip()
     today = args.date or __import__("datetime").date.today().isoformat()
+    data_before, _ = load()
     fields = {"tg_post": tg_url(args.tg) if args.tg else "", "date": today}
     if args.category:
         fields["category"] = args.category
@@ -299,7 +300,13 @@ def cmd_add(args) -> int:
         for p in build():
             print("written", p.name)
     if args.push:
-        commit_and_push(f"{action}: {row['repo']}")
+        try:
+            commit_and_push(f"{action}: {row['repo']}")
+        except SystemExit as e:
+            save(data_before)
+            build()
+            print(f"rollback: {e}")
+            return 1
     return 0
 
 
