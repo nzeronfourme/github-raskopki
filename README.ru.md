@@ -10,7 +10,7 @@
 - [ИИ и агенты](#ии-и-агенты) (13)
 - [Видео, звук и графика](#видео-звук-и-графика) (19)
 - [Игры и эмуляторы](#игры-и-эмуляторы) (8)
-- [Файлы и система](#файлы-и-система) (9)
+- [Файлы и система](#файлы-и-система) (10)
 - [Сеть, приватность и загрузки](#сеть-приватность-и-загрузки) (10)
 - [Продуктивность и документы](#продуктивность-и-документы) (4)
 
@@ -103,6 +103,7 @@
 | [UniGetUI](https://github.com/Devolutions/UniGetUI) | Графическая оболочка над winget, Scoop и Chocolatey в одном окне. | [пост](https://t.me/github_raskopki/66) |
 | [cleanyourtv](https://github.com/Gathin23/cleanyourtv) | Лаунчер для Android TV: убирает рекламные ряды и мусорные сервисы, меняет домашний экран. | [пост](https://t.me/github_raskopki/41) |
 | [Filee](https://github.com/KnifeLemon/Filee) | Бесплатный конвертер файлов работает через перетаскивание. | [пост](https://t.me/github_raskopki/47) |
+| [roomy](https://github.com/krezio/roomy) | Показывает, чем занят диск, и удаляет безопасный мусор по одному клику, объясняя каждый файл. | [пост](https://t.me/github_raskopki/120) |
 | [localsend](https://github.com/localsend/localsend) | Обменивается файлами и сообщениями между устройствами в локальной сети без интернета. | [пост](https://t.me/github_raskopki/48) |
 | [czkawka](https://github.com/qarmin/czkawka) | Ищет дубликаты, пустые папки и похожие фото: есть интерфейс и версия для командной строки. | [пост](https://t.me/github_raskopki/99) |
 | [nectarlink](https://github.com/thtbee/nectarlink) | Связывает Android-телефон с ПК: уведомления, звонки, буфер обмена, файлы и экран телефона. | [пост](https://t.me/github_raskopki/117) |

@@ -10,7 +10,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 - [AI & Agents](#ai--agents) (13)
 - [Video, Audio & Graphics](#video-audio--graphics) (19)
 - [Games & Emulators](#games--emulators) (8)
-- [Files & System](#files--system) (9)
+- [Files & System](#files--system) (10)
 - [Network, Privacy & Downloads](#network-privacy--downloads) (10)
 - [Productivity & Documents](#productivity--documents) (4)
 
@@ -103,6 +103,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 | [UniGetUI](https://github.com/Devolutions/UniGetUI) | The graphical interface for your Windows package managers. | [post](https://t.me/github_raskopki/66) |
 | [cleanyourtv](https://github.com/Gathin23/cleanyourtv) | Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home. | [post](https://t.me/github_raskopki/41) |
 | [Filee](https://github.com/KnifeLemon/Filee) | Offline file converter for 263 formats, drag and drop. | [post](https://t.me/github_raskopki/47) |
+| [roomy](https://github.com/krezio/roomy) | Shows what fills your drive in plain English and cleans the safe junk in one click. | [post](https://t.me/github_raskopki/120) |
 | [localsend](https://github.com/localsend/localsend) | An open-source cross-platform alternative to AirDrop | [post](https://t.me/github_raskopki/48) |
 | [czkawka](https://github.com/qarmin/czkawka) | Finds duplicates, empty folders and similar images, with GUI and CLI. | [post](https://t.me/github_raskopki/99) |
 | [nectarlink](https://github.com/thtbee/nectarlink) | Links your Android phone and PC: notifications, calls, clipboard, files and screen. | [post](https://t.me/github_raskopki/117) |

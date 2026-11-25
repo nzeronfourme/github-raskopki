@@ -520,6 +520,14 @@
   "date": "2026-10-24"
  },
  {
+  "repo": "krezio/roomy",
+  "category": "files",
+  "desc_ru": "Показывает, чем занят диск, и удаляет безопасный мусор по одному клику, объясняя каждый файл.",
+  "desc_en": "Shows what fills your drive in plain English and cleans the safe junk in one click.",
+  "tg_post": "https://t.me/github_raskopki/120",
+  "date": "2026-11-25"
+ },
+ {
   "repo": "localsend/localsend",
   "category": "files",
   "desc_ru": "Обменивается файлами и сообщениями между устройствами в локальной сети без интернета.",
