@@ -190,8 +190,7 @@ def cmd_build(_args) -> int:
     return 0
 
 
-def cmd_check(args) -> int:
-    data, cats = load()
+def validate(data: list, cats: list) -> list[str]:
     order = [c["slug"] for c in cats]
     problems = []
     seen = set()
@@ -213,6 +212,12 @@ def cmd_check(args) -> int:
         parts = [p.strip() for p in r.get("os", "").split("/") if p.strip()]
         if not parts or any(p not in OS_VALUES for p in parts):
             problems.append(f"bad os: {repo} -> {r.get('os')!r}")
+    return problems
+
+
+def cmd_check(args) -> int:
+    data, cats = load()
+    problems = validate(data, cats)
     if args.strict:
         for lang in ("en", "ru"):
             expected = render(lang, data, cats)
@@ -251,6 +256,12 @@ def git(*args: str) -> int:
 
 
 def commit_and_push(message: str) -> None:
+    data, cats = load()
+    problems = validate(data, cats)
+    if problems:
+        for p in problems[:5]:
+            print("FAIL", p)
+        raise SystemExit("git: не коммичу, данные не проходят проверку")
     if git("add", "-A") != 0:
         raise SystemExit("git add failed")
     if git("diff", "--cached", "--quiet") == 0:
