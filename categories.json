@@ -1,0 +1,10 @@
+[
+ {"slug": "windows", "ru": "Windows и рабочий стол", "en": "Windows & Desktop"},
+ {"slug": "ai", "ru": "ИИ и агенты", "en": "AI & Agents"},
+ {"slug": "media", "ru": "Видео, звук и графика", "en": "Video, Audio & Graphics"},
+ {"slug": "games", "ru": "Игры и эмуляторы", "en": "Games & Emulators"},
+ {"slug": "files", "ru": "Файлы и система", "en": "Files & System"},
+ {"slug": "net", "ru": "Сеть, приватность и загрузки", "en": "Network, Privacy & Downloads"},
+ {"slug": "docs", "ru": "Продуктивность и документы", "en": "Productivity & Documents"},
+ {"slug": "other", "ru": "Прочее", "en": "Other"}
+]
