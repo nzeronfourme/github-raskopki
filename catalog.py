@@ -81,7 +81,7 @@ def save(data: list) -> None:
     order = [c["slug"] for c in cats]
     data.sort(key=lambda r: (order.index(r["category"]) if r["category"] in order else 99,
                              r["repo"].lower()))
-    DATA.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    DATA.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
 
 
 def anchor(text: str) -> str:
@@ -177,7 +177,7 @@ def build() -> list[Path]:
     written = []
     for lang in ("en", "ru"):
         path = HERE / L10N[lang]["file"]
-        path.write_text(render(lang, data, cats), encoding="utf-8")
+        path.write_text(render(lang, data, cats), encoding="utf-8", newline="\n")
         written.append(path)
     return written
 
