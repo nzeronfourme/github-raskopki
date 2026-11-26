@@ -12,7 +12,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 - [Games & Emulators](#games--emulators) (8)
 - [Files & System](#files--system) (10)
 - [Network, Privacy & Downloads](#network-privacy--downloads) (10)
-- [Productivity & Documents](#productivity--documents) (4)
+- [Productivity & Documents](#productivity--documents) (5)
 
 ## Windows & Desktop
 
@@ -132,5 +132,6 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 |---|---|---|
 | [mdldm-maitian](https://github.com/CzzzzzzJ/mdldm-maitian) | Publishing console and analytics dashboard for seven video platforms. | [post](https://t.me/github_raskopki/111) |
 | [MarkMello](https://github.com/dartdavros/MarkMello) | Markdown viewer and editor that opens documents in a clean reading mode. | [post](https://t.me/github_raskopki/116) |
+| [normcap](https://github.com/dynobo/normcap) | OCR powered screen-capture tool to capture information instead of images | [post](https://t.me/github_raskopki/122) |
 | [ppt-master](https://github.com/hugohe3/ppt-master) | Turns documents and topics into native, editable PowerPoint decks. | [post](https://t.me/github_raskopki/46) |
 | [pot-desktop](https://github.com/pot-app/pot-desktop) | Cross-platform text translation and OCR tool for Windows, macOS and Linux. | [post](https://t.me/github_raskopki/94) |
