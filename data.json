@@ -320,6 +320,14 @@
   "date": "2026-11-13"
  },
  {
+  "repo": "haziqahmedqasmi/peakcut",
+  "category": "media",
+  "desc_ru": "Нарезает длинные видео и стримы в вертикальные клипы с пословными субтитрами.",
+  "desc_en": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+  "tg_post": "https://t.me/github_raskopki/121",
+  "date": "2026-11-26"
+ },
+ {
   "repo": "kde/krita",
   "category": "media",
   "desc_ru": "Программа для цифровой живописи: кисти, слои, анимация и работа с большими холстами.",

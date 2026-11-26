@@ -8,7 +8,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 
 - [Windows & Desktop](#windows--desktop) (21)
 - [AI & Agents](#ai--agents) (13)
-- [Video, Audio & Graphics](#video-audio--graphics) (19)
+- [Video, Audio & Graphics](#video-audio--graphics) (20)
 - [Games & Emulators](#games--emulators) (8)
 - [Files & System](#files--system) (10)
 - [Network, Privacy & Downloads](#network-privacy--downloads) (10)
@@ -68,6 +68,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 | [fxsound-app](https://github.com/fxsound2/fxsound-app) | FxSound application and DSP source code | [post](https://t.me/github_raskopki/32) |
 | [openscreen](https://github.com/getopenscreen/openscreen) | Records your screen into polished demo videos, GPU-accelerated and watermark-free. | [post](https://t.me/github_raskopki/95) |
 | [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake with only a single image | [post](https://t.me/github_raskopki/91) |
+| [peakcut](https://github.com/haziqahmedqasmi/peakcut) | AI clipping for long videos and live streams. Self-hosted, bring your own AI key. | [post](https://t.me/github_raskopki/121) |
 | [krita](https://github.com/kde/krita) | Digital painting app: brushes, layers, animation and large canvases. | [post](https://t.me/github_raskopki/35) |
 | [brag](https://github.com/latent-spaces/brag) | Agent skill that turns a finished project into a short launch video in one command. | [post](https://t.me/github_raskopki/78) |
 | [lemo-opuscar](https://github.com/lemomo-ai/lemo-opuscar) | Toolbox of film styles for Claude Code, ready to use or extended with your own. | [post](https://t.me/github_raskopki/55) |
