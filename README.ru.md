@@ -12,7 +12,7 @@
 - [Игры и эмуляторы](#игры-и-эмуляторы) (8)
 - [Файлы и система](#файлы-и-система) (10)
 - [Сеть, приватность и загрузки](#сеть-приватность-и-загрузки) (10)
-- [Продуктивность и документы](#продуктивность-и-документы) (5)
+- [Продуктивность и документы](#продуктивность-и-документы) (6)
 
 ## Windows и рабочий стол
 
@@ -133,5 +133,6 @@
 | [mdldm-maitian](https://github.com/CzzzzzzJ/mdldm-maitian) | Публикует одно видео на семи площадках и собирает статистику на одном экране. | [пост](https://t.me/github_raskopki/111) |
 | [MarkMello](https://github.com/dartdavros/MarkMello) | Программа для просмотра и редактирования Markdown-файлов на Windows, macOS и Linux. | [пост](https://t.me/github_raskopki/116) |
 | [normcap](https://github.com/dynobo/normcap) | Распознаёт текст с выбранной области экрана, чтобы скопировать его без перепечатывания. | [пост](https://t.me/github_raskopki/122) |
+| [excalidraw](https://github.com/excalidraw/excalidraw) | Бесконечная доска для рисования диаграмм от руки со стрелками и экспортом в PNG и SVG. | [пост](https://t.me/github_raskopki/123) |
 | [ppt-master](https://github.com/hugohe3/ppt-master) | Собирает редактируемый PPTX из PDF, DOCX и веб-страниц для доработки в PowerPoint. | [пост](https://t.me/github_raskopki/46) |
 | [pot-desktop](https://github.com/pot-app/pot-desktop) | Переводит выделенный текст и распознаёт надписи на скриншотах на Windows, macOS и Linux. | [пост](https://t.me/github_raskopki/94) |

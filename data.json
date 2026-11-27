@@ -680,6 +680,14 @@
   "date": "2026-11-26"
  },
  {
+  "repo": "excalidraw/excalidraw",
+  "category": "docs",
+  "desc_ru": "Бесконечная доска для рисования диаграмм от руки со стрелками и экспортом в PNG и SVG.",
+  "desc_en": "Virtual whiteboard for sketching hand-drawn like diagrams",
+  "tg_post": "https://t.me/github_raskopki/123",
+  "date": "2026-11-27"
+ },
+ {
   "repo": "hugohe3/ppt-master",
   "category": "docs",
   "desc_ru": "Собирает редактируемый PPTX из PDF, DOCX и веб-страниц для доработки в PowerPoint.",
