@@ -8,7 +8,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 
 - [Windows & Desktop](#windows--desktop) (21)
 - [AI & Agents](#ai--agents) (13)
-- [Video, Audio & Graphics](#video-audio--graphics) (20)
+- [Video, Audio & Graphics](#video-audio--graphics) (21)
 - [Games & Emulators](#games--emulators) (8)
 - [Files & System](#files--system) (10)
 - [Network, Privacy & Downloads](#network-privacy--downloads) (10)
@@ -78,6 +78,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 | [nuclear](https://github.com/nukeop/nuclear) | Streaming music player that finds free music for you | [post](https://t.me/github_raskopki/38) |
 | [openfilm](https://github.com/openfilm/openfilm) | Turns any coding agent into a video agent, with editors to change what it makes. | [post](https://t.me/github_raskopki/76) |
 | [photocraft](https://github.com/storytold/photocraft) | PhotoCraft: An open-source photo editor written from scratch in pure Rust | [post](https://t.me/github_raskopki/43) |
+| [vibe](https://github.com/thewh1teagle/vibe) | Transcribe on your own! | [post](https://t.me/github_raskopki/124) |
 | [upscayl](https://github.com/upscayl/upscayl) | Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows. | [post](https://t.me/github_raskopki/63) |
 | [viralcut](https://github.com/vanwild11/viralcut) | Cuts long videos and streams into vertical clips for Shorts, Reels and TikTok on macOS and Windows. | [post](https://t.me/github_raskopki/113) |
 | [voice-changer](https://github.com/w-okada/voice-changer) | Realtime voice changer that swaps your voice with neural models. | [post](https://t.me/github_raskopki/82) |

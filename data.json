@@ -400,6 +400,14 @@
   "date": "2026-10-22"
  },
  {
+  "repo": "thewh1teagle/vibe",
+  "category": "media",
+  "desc_ru": "Расшифровка аудио и видео в текст и субтитры на своём компьютере, без интернета",
+  "desc_en": "Transcribe on your own!",
+  "tg_post": "https://t.me/github_raskopki/124",
+  "date": "2026-11-27"
+ },
+ {
   "repo": "upscayl/upscayl",
   "category": "media",
   "desc_ru": "Увеличивает изображения с низким разрешением нейросетью, предугадывая детали.",
