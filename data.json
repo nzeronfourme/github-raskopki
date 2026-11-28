@@ -392,6 +392,14 @@
   "date": "2026-11-06"
  },
  {
+  "repo": "OpenWhispr/openwhispr",
+  "category": "media",
+  "desc_ru": "Превращает речь в текст у курсора и расшифровывает созвоны с разделением по спикерам.",
+  "desc_en": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK).",
+  "tg_post": "https://t.me/github_raskopki/126",
+  "date": "2026-11-28"
+ },
+ {
   "repo": "storytold/photocraft",
   "category": "media",
   "desc_ru": "Редактор изображений - открытая реализация Photoshop на чистом Rust для работы офлайн.",

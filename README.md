@@ -8,7 +8,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 
 - [Windows & Desktop](#windows--desktop) (21)
 - [AI & Agents](#ai--agents) (13)
-- [Video, Audio & Graphics](#video-audio--graphics) (21)
+- [Video, Audio & Graphics](#video-audio--graphics) (22)
 - [Games & Emulators](#games--emulators) (8)
 - [Files & System](#files--system) (10)
 - [Network, Privacy & Downloads](#network-privacy--downloads) (10)
@@ -77,6 +77,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | ScreenToGif allows you to record a selected area of your screen, edit and save it as a gif or video. | [post](https://t.me/github_raskopki/102) |
 | [nuclear](https://github.com/nukeop/nuclear) | Streaming music player that finds free music for you | [post](https://t.me/github_raskopki/38) |
 | [openfilm](https://github.com/openfilm/openfilm) | Turns any coding agent into a video agent, with editors to change what it makes. | [post](https://t.me/github_raskopki/76) |
+| [openwhispr](https://github.com/OpenWhispr/openwhispr) | Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). | [post](https://t.me/github_raskopki/126) |
 | [photocraft](https://github.com/storytold/photocraft) | PhotoCraft: An open-source photo editor written from scratch in pure Rust | [post](https://t.me/github_raskopki/43) |
 | [vibe](https://github.com/thewh1teagle/vibe) | Transcribe on your own! | [post](https://t.me/github_raskopki/124) |
 | [upscayl](https://github.com/upscayl/upscayl) | Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows. | [post](https://t.me/github_raskopki/63) |

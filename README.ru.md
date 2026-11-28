@@ -8,7 +8,7 @@
 
 - [Windows и рабочий стол](#windows-и-рабочий-стол) (21)
 - [ИИ и агенты](#ии-и-агенты) (13)
-- [Видео, звук и графика](#видео-звук-и-графика) (21)
+- [Видео, звук и графика](#видео-звук-и-графика) (22)
 - [Игры и эмуляторы](#игры-и-эмуляторы) (8)
 - [Файлы и система](#файлы-и-система) (10)
 - [Сеть, приватность и загрузки](#сеть-приватность-и-загрузки) (10)
@@ -77,6 +77,7 @@
 | [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | Записывает область экрана и сохраняет в GIF или видео, с встроенным редактором кадров. | [пост](https://t.me/github_raskopki/102) |
 | [nuclear](https://github.com/nukeop/nuclear) | Музыкальный плеер без рекламы, который ищет песни на просторах сети и собирает плейлисты. | [пост](https://t.me/github_raskopki/38) |
 | [openfilm](https://github.com/openfilm/openfilm) | Инструмент для создания видео кодовым агентом с ручным редактированием. | [пост](https://t.me/github_raskopki/76) |
+| [openwhispr](https://github.com/OpenWhispr/openwhispr) | Превращает речь в текст у курсора и расшифровывает созвоны с разделением по спикерам. | [пост](https://t.me/github_raskopki/126) |
 | [photocraft](https://github.com/storytold/photocraft) | Редактор изображений - открытая реализация Photoshop на чистом Rust для работы офлайн. | [пост](https://t.me/github_raskopki/43) |
 | [vibe](https://github.com/thewh1teagle/vibe) | Расшифровка аудио и видео в текст и субтитры на своём компьютере, без интернета | [пост](https://t.me/github_raskopki/124) |
 | [upscayl](https://github.com/upscayl/upscayl) | Увеличивает изображения с низким разрешением нейросетью, предугадывая детали. | [пост](https://t.me/github_raskopki/63) |
