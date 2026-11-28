@@ -12,7 +12,7 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 - [Games & Emulators](#games--emulators) (8)
 - [Files & System](#files--system) (10)
 - [Network, Privacy & Downloads](#network-privacy--downloads) (10)
-- [Productivity & Documents](#productivity--documents) (6)
+- [Productivity & Documents](#productivity--documents) (7)
 
 ## Windows & Desktop
 
@@ -137,3 +137,4 @@ A catalog of the apps and tools featured in the Telegram channel [@github_raskop
 | [excalidraw](https://github.com/excalidraw/excalidraw) | Virtual whiteboard for sketching hand-drawn like diagrams | [post](https://t.me/github_raskopki/123) |
 | [ppt-master](https://github.com/hugohe3/ppt-master) | Turns documents and topics into native, editable PowerPoint decks. | [post](https://t.me/github_raskopki/46) |
 | [pot-desktop](https://github.com/pot-app/pot-desktop) | Cross-platform text translation and OCR tool for Windows, macOS and Linux. | [post](https://t.me/github_raskopki/94) |
+| [MROffice](https://github.com/XinaTian/MROffice) | Open-source browser editors for documents, spreadsheets, presentations and PDF, with an AI copilot. | [post](https://t.me/github_raskopki/125) |

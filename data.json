@@ -710,5 +710,13 @@
   "desc_en": "Cross-platform text translation and OCR tool for Windows, macOS and Linux.",
   "tg_post": "https://t.me/github_raskopki/94",
   "date": "2026-11-15"
+ },
+ {
+  "repo": "XinaTian/MROffice",
+  "category": "docs",
+  "desc_ru": "Редакторы документов, таблиц, презентаций и PDF с ИИ, который правит файл на месте.",
+  "desc_en": "Open-source browser editors for documents, spreadsheets, presentations and PDF, with an AI copilot.",
+  "tg_post": "https://t.me/github_raskopki/125",
+  "date": "2026-11-28"
  }
 ]

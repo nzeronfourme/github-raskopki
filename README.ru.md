@@ -12,7 +12,7 @@
 - [Игры и эмуляторы](#игры-и-эмуляторы) (8)
 - [Файлы и система](#файлы-и-система) (10)
 - [Сеть, приватность и загрузки](#сеть-приватность-и-загрузки) (10)
-- [Продуктивность и документы](#продуктивность-и-документы) (6)
+- [Продуктивность и документы](#продуктивность-и-документы) (7)
 
 ## Windows и рабочий стол
 
@@ -137,3 +137,4 @@
 | [excalidraw](https://github.com/excalidraw/excalidraw) | Бесконечная доска для рисования диаграмм от руки со стрелками и экспортом в PNG и SVG. | [пост](https://t.me/github_raskopki/123) |
 | [ppt-master](https://github.com/hugohe3/ppt-master) | Собирает редактируемый PPTX из PDF, DOCX и веб-страниц для доработки в PowerPoint. | [пост](https://t.me/github_raskopki/46) |
 | [pot-desktop](https://github.com/pot-app/pot-desktop) | Переводит выделенный текст и распознаёт надписи на скриншотах на Windows, macOS и Linux. | [пост](https://t.me/github_raskopki/94) |
+| [MROffice](https://github.com/XinaTian/MROffice) | Редакторы документов, таблиц, презентаций и PDF с ИИ, который правит файл на месте. | [пост](https://t.me/github_raskopki/125) |
