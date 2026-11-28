@@ -243,6 +243,25 @@ def commit_and_push(message: str) -> None:
         raise SystemExit("git push failed")
 
 
+def shorten(text: str, limit: int = 110) -> str:
+    """Сжать описание до одной короткой фразы без многоточий.
+
+    Сначала пробуем первое предложение, потом часть до двоеточия/тире,
+    в конце - обрезка по границе слова.
+    """
+    text = re.sub(r"\s+", " ", text or "").strip()
+    if len(text) <= limit:
+        return text
+    first = re.split(r"(?<=[.!?])\s+", text)[0].strip()
+    if len(first) <= limit:
+        return first
+    for sep in (" — ", ": ", "; ", " - "):
+        head = first.split(sep)[0].strip()
+        if 40 <= len(head) <= limit:
+            return head.rstrip(",;:—- ")
+    return first[:limit].rsplit(" ", 1)[0].rstrip(",;:—- ")
+
+
 def cmd_add(args) -> int:
     repo = args.repo.strip()
     today = args.date or __import__("datetime").date.today().isoformat()
@@ -259,6 +278,9 @@ def cmd_add(args) -> int:
         meta = fetch_meta(repo)
         if meta.get("desc_en") and not fields.get("desc_en"):
             fields["desc_en"] = meta["desc_en"]
+    for key in ("desc_ru", "desc_en"):
+        if fields.get(key):
+            fields[key] = shorten(fields[key])
     action, row = upsert(repo, fields)
     print(f"{action}: {row['repo']} [{row['category']}] {row['tg_post']}")
     if args.build:
